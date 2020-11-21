@@ -61,6 +61,11 @@ function runWhileLoop() {
         (Or for a challenge, concatenate the first "number" letters of the alphabet!)
     */
 
+    while (number < 5)
+    {
+        output("A");
+    }
+
 
     $("#while-result").text(output);
 }
